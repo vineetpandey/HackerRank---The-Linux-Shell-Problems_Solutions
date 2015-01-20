@@ -1,0 +1,1 @@
+uniq -c -i | awk '{ gsub(/^[ \t]+|[ \t]+$/, ""); print }'
